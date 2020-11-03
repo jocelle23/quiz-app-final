@@ -1,0 +1,80 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+body {
+  background-color: #F1FAEE;
+}
+
+main {
+  border: solid #457B9D 4px;
+  background-color: #A8DADC;
+  margin: auto 10%;
+  padding: 5px;
+}
+
+h1 {
+  color: #1D3557;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  margin: 30px auto 40px auto;
+}
+
+h2 {
+  color: black;
+  font-family: Cambria, 'Times New Roman', serif;
+  font-size: 30px;
+  margin: 30px auto 10px;
+}
+
+p, pre {
+ color: black;
+ font-family: Cambria, 'Times New Roman', serif;
+ font-size: 24px;
+ margin: auto;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  width: 200px;
+  margin: 8px auto;
+ }
+
+
+button {
+  margin: 15px auto 10px;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  background-color: #1D3557;
+}
+
+button:hover {
+  background-color: #F1FAEE;
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.pSpace {
+  margin: 30px auto 20px;
+}
+
+#submit-btn {
+  margin-bottom: 20px;
+}
